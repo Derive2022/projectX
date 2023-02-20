@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +11,105 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.containerFetch{
+  background-color: grey;
+display: flex;
+border: 12px solid grey;
+width:110rem;
+height: 200px;
+padding: 15px;
+border-radius: 15px;
+margin: 2rem;
+
+}
+
+.dataFetch{
+ color:white;
+  background-color:burlywood;
+  cursor:pointer;
+  width: 300px;
+  border: 2px solid black;
+  padding: 30px;
+  margin: 10px;
+  box-shadow: 5px 10px skyblue;
+  /* transition: background-color 1s ease-in 1ms; */
+  font-size: large;
+  font-style: normal;
+  font-weight: bold;
+  border-color: aqua;
+  
+  
+}
+.dataFetch:hover {
+  background: url("images/2.jpg") no-repeat;
+}
+
+.navBar{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+font-size:x-large;
+}
+
+.counterEffect{
+  font-size:100px;
+  font-weight: bolder;
+  background-color: rgb(157, 223, 219);
+  display: flex;
+  border: 5px solid rgb(173, 23, 23);
+  width:110rem;
+  height: 200px;
+  padding: 15px;
+  border-radius: 15px;
+  margin: 2rem;
+  justify-content: center;
+}
+.navbarContainer{
+  /* background-image: linear-gradient(15deg, #000000 0%, #000000 100%); */
+  height: 60px;
+background-color:black;
+  padding:10px;
+  /* box-shadow: 2px 5px rgb(202, 202, 183); */
+  width: 120rem;
+
+
+}
+.containerPics{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.count1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.todos{
+  margin-left:18rem;
+  background-color: rgb(178, 228, 230);
+  border: 1px solid rgb(173, 23, 23);
+  width:60rem;
+  height: 600px;
+  padding: 15px;
+  margin-top: 2rem;
+  border-radius: 15px;
+  
+}
+.form1{
+  width: 40rem;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.displayContainer{
+  display: flex;
+margin-top: 2rem;
+justify-content: center;
+gap: 15px;
 }
