@@ -1,4 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import CssBaseline from '@mui/material/CssBaseline';
+import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
 
 const Project2 = () => {
 
@@ -32,20 +35,30 @@ function decrement (){
 }
 
   return (
-    <>
-    <h2 style={{color:"darkred",margin:30}}>Counter</h2>
+    <React.Fragment>
+       <h2 style={{color:"darkred",margin:10}}>Counter</h2>
+    <CssBaseline />
+    <Container fixed>
+      <Box sx={{ bgcolor: '#cfe8fc', height: '40vh' }}>
+         
     <div className='counterEffect'>
-      <div className='count1'>
-        Counter : {count}
-      </div>
-      
-      
-      </div>
-      <button onClick={increment}>Increment</button>
+     <div className='count1'>
+        Count : {count}
+        </div>
+           <button onClick={increment}>Increment</button>
       <button onClick={reset}>Reset</button>
       <button onClick={decrement}>Decrement</button>
       
-      </>
+      </div>
+      </Box>
+    
+      
+      
+      
+   
+    </Container>
+  </React.Fragment>
+  
   )
 }
 
