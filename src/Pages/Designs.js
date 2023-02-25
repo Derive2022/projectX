@@ -1,8 +1,6 @@
 import React from 'react';
-import Project4 from '../components/Project4';
-import { Link } from 'react-router-dom';
-import Project7 from '../components/Project7';
-import Overlay from '../components/Overlay';
+// import Project7 from '../components/Project7';
+
 
 
 
@@ -11,8 +9,8 @@ const Designs = () => {
 
   return (
     <div >
-            {/* <Project7 /> */}
-            {/* <Overlay /> */}
+   <h3 style={{color:"black" , padding:"10px"}}>Watch this space for upcoming designs : For now explore other pages</h3>
+         
     </div>
   )
 }

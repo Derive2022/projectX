@@ -9,10 +9,6 @@ import Designs from './Pages/Designs';
 import Todo from './Pages/Todo';
 
 
-
-
-
-
 function App() {
   return (
     <>

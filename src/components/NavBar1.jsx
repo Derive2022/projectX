@@ -45,11 +45,13 @@ function NavBar1() {
         <Toolbar disableGutters>
           {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
           <Avatar alt="Remy Sharp" src={AshishPic}sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+          
           <Typography
+
             variant="h6"
             noWrap
             component="a"
-            href="/"
+            href="/Home"
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
@@ -62,6 +64,7 @@ function NavBar1() {
           >
            Ashish Gautam
           </Typography>
+          
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton

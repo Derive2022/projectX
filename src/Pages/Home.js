@@ -7,8 +7,8 @@ import "../index.css"
 
 const CanvasContainer = styled.div`
 border: 2px solid palevioletred;
-width:119rem;
-height:55rem;
+width:220vh;
+height:100vh;
 background: black;
 @media (max-width: 1068px) {
   width:30rem;
